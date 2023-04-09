@@ -1,5 +1,5 @@
-/* @media screen and (max-width: 427px) {
-  .container {
+@media screen and (max-width: 427px) {
+  /* .container {
     width: 100%;
   }
 
@@ -9,12 +9,12 @@
 
   .mob-menu-list-soc {
     gap: 24px;
-  }
+  } */
 
   .mob-menu-tel {
     font-size: 24px;
   }
-} */
+}
 
 @media screen and (min-width: 428px) {
   .container {
