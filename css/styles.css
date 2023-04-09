@@ -283,6 +283,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .mob-menu-soc-icon {
@@ -290,7 +291,9 @@ body {
   height: 24px;
 }
 
-.header-menu {
+/*! MENU FINISH */
+
+/* .header-menu {
   display: flex;
   margin-left: 76px;
   gap: var(--extra-gaps);
@@ -337,7 +340,7 @@ body {
 
 .header-contact-link:is(:hover, :focus) {
   color: var(--text-accent-color);
-}
+} */
 
 /** -----------HERO-------------*/
 .hero {
