@@ -1,4 +1,8 @@
 @media screen and (max-width: 427px) {
+  .mob-menu {
+    width: 100%;
+  }
+
   .mob-menu-list-soc {
     gap: 24px;
   }
