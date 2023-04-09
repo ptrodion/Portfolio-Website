@@ -1,4 +1,8 @@
 @media screen and (max-width: 427px) {
+  .container {
+    width: 100%;
+  }
+
   .mob-menu {
     width: 100%;
   }
