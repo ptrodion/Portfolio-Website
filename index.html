@@ -21,20 +21,44 @@
     <div class="container header-container">
       <nav class="header-nav">
         <a href="./index.html" class="header-logo">web<span>Studio</span></a>
+
         <!-- MENU START -->
 
-        <button type="button" class="menu-open-button" data-menu-open>
-          <svg class="menu-button-icons" width="24" height="24">
+        <button class="menu-open-button" data-menu-open type="button">
+          <svg class="menu-open-icons" width="24" height="24">
             <use href="./images/icons.svg#icon-mobile-menu">
             </use>
           </svg>
         </button>
+
         <div class="mob-menu is-hidden" data-menu>
-          <button class="" data-menu-close type="button">
-            <svg class="" width="20" height="20">
+          <button class="mob-menu-close" data-menu-close type="button">
+            <svg class="mob-menu-close-icons" width="8" height="8">
               <use href="./images/icons.svg#icon-close-window"></use>
             </svg>
           </button>
+          <ul class="mob-menu-list-links">
+            <li>
+              <a href="./index.html" class="mob-menu-list-link">Studio</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="mob-menu-list-link">Portfolio</a>
+            </li>
+            <li>
+              <a href="" class="mob-menu-list-link mob-menu-current-link">Contacts</a>
+            </li>
+          </ul>
+
+          <address>
+            <ul class="mob-menu-list-adress">
+              <li>
+                <a class="mob-menu-tel">+11 (000) 111-11-11</a>
+              </li>
+              <li>
+                <a href="mailto:info@devstudio.com" class="mob-menu-email">info@devstudio.com</a>
+              </li>
+            </ul>
+          </address>
 
 
         </div>
