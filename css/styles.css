@@ -331,82 +331,91 @@ body {
   color: var(--text-primary-color);
 }
 
-/**-----------PERFOMACE-------------*/
-.performance {
-  padding-bottom: 120px;
-}
-
-.perfomance-list {
-  margin-top: 72px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--main-gaps);
-}
-
 /**-----------TEAM-------------*/
+
 .team {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.container-team {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .team-list {
   display: flex;
   margin-top: 72px;
-  flex-wrap: wrap;
-  gap: var(--main-gaps);
+  /* flex-wrap: wrap; */
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
 }
 
+/* 
 .team-item {
   background: var(--bkg-primary-color);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+} */
 
-.team-container {
+/* .team-container {
   padding: 32px 16px;
-}
+} */
 
-.team-employee-title {
+/* .team-employee-title {
   text-align: center;
   margin-bottom: 8px;
-}
-.team-text {
-  text-align: center;
-}
+} */
 
-.team-soc-list {
+/* .team-text {
+  text-align: center;
+} */
+
+/* .team-soc-list {
   display: flex;
   gap: var(--main-gaps);
   margin-top: 8px;
   justify-content: center;
-}
-.team-soc-item {
+} */
+
+/* .team-soc-item {
   width: 40px;
   height: 40px;
-}
+} */
 
-.team-soc-link {
+/* .team-soc-link {
   width: 100%;
   height: 100%;
-  /* display: block; */
   border-radius: 50%;
   background-color: #4d5ae5;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: background-color var(--main-transition);
-}
+} */
 
-.team-soc-link:is(:hover, :focus) {
+/* .team-soc-link:is(:hover, :focus) {
   background-color: #404bbf;
-}
+} */
 
-.team-icons {
+/* .team-icons {
   width: 16px;
   height: 16px;
-}
+} */
 
 /**-----------CUSTOMERS-------------*/
 

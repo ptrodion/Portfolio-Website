@@ -22,6 +22,8 @@
     outline: 2px solid red;
   }
 
+  /* HERO */
+
   .mob-menu-tel {
     font-size: 36px;
   }
@@ -36,6 +38,13 @@
 
   .hero {
     height: 432px;
+  }
+
+  /* TEAN */
+  .container-team {
+    width: 263px;
+    padding-left: 82px;
+    padding-right: 82px;
   }
 }
 
