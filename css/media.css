@@ -11,15 +11,23 @@
     gap: 24px;
   } */
 
-  .mob-menu-tel {
+  /* .mob-menu-tel {
     font-size: 12px;
-  }
+  } */
 }
 
 @media screen and (min-width: 428px) {
   .container {
     width: 426px;
     outline: 2px solid red;
+  }
+
+  .mob-menu-tel {
+    font-size: 36px;
+  }
+
+  .mob-menu-list-soc {
+    gap: 56px;
   }
 }
 
