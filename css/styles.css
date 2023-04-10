@@ -58,50 +58,11 @@ body {
 }
 
 .container {
-  /* width: 1158px; */
+  width: 100%;
   padding-left: 16px;
   padding-right: 16px;
   margin: 0 auto;
-  /* outline: 2px solid red; */
 }
-
-.main-brg-text {
-}
-
-/* it describes headings H3  */
-/* .secondary-subtitle {
-  color: var(--text-secondary-color);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-} */
-
-/* it describes headings H2 */
-.primary-subtitle {
-  color: var(--text-secondary-color);
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-
-.headline {
-  color: var(--text-secondary-color);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-/* is describes paragraph design */
-/* .lead {
-  color: var(--text-primary-color);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-} */
 
 .visually-hidden {
   position: absolute;
@@ -249,7 +210,7 @@ body {
 
 .mob-menu-tel {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 25px;
   line-height: calc(40 / 36);
   letter-spacing: 0.02em;
   color: #4d5ae5;
@@ -257,7 +218,7 @@ body {
 
 .mob-menu-email {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 25px;
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
   color: #434455;
@@ -265,7 +226,7 @@ body {
 
 .mob-menu-list-soc {
   display: flex;
-  gap: 24px;
+  gap: 29px;
 }
 
 .mob-menu-soc-item {
@@ -294,8 +255,7 @@ body {
 /** -----------HERO-------------*/
 
 .hero {
-  /* width: 100%; */
-  height: 432px;
+  height: auto;
 
   margin: 0 auto;
 

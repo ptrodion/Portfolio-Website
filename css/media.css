@@ -26,8 +26,16 @@
     font-size: 36px;
   }
 
+  .mob-menu-email {
+    font-size: 20px;
+  }
+
   .mob-menu-list-soc {
     gap: 56px;
+  }
+
+  .hero {
+    height: 432px;
   }
 }
 
