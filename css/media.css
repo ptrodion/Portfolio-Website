@@ -1,25 +1,6 @@
-@media screen and (max-width: 427px) {
-  /* .container {
-    width: 426px;
-  } */
-  /* 
-  .mob-menu {
-    width: 100%;
-  } */
-
-  /* .mob-menu-list-soc {
-    gap: 24px;
-  } */
-
-  /* .mob-menu-tel {
-    font-size: 12px;
-  } */
-}
-
 @media screen and (min-width: 428px) {
   .container {
-    width: 426px;
-    outline: 2px solid red;
+    max-width: 428px;
   }
 
   /* HERO */
@@ -41,15 +22,51 @@
   }
 
   /* TEAM */
-  /* .team .container {
-    width: 263px;
+  .team .container {
+    width: 264px;
     padding-left: 82px;
     padding-right: 82px;
-  } */
+    outline: 1px solid red;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    max-width: 738px;
+    outline: 2px solid red;
+  }
+
+  .menu-open-button {
+    display: none;
+  }
+
+  /* HERO */
+  .hero {
+    background-image: var(--grad), url(../images/hero/fon-image-hero-tab1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--grad),
+        url(../images/hero/fon-image-hero-tab2x.jpg);
+    }
+  }
 }
 
 @media screen and (min-width: 1156px) {
+  /* HERO */
+  .hero {
+    background-image: var(--grad), url(../images/hero/fon-image-hero-des1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--grad),
+        url(../images/hero/fon-image-hero-des2x.jpg);
+    }
+  }
 }

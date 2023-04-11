@@ -59,8 +59,8 @@ body {
 
 .container {
   width: 100%;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -265,19 +265,18 @@ body {
   background-color: var(--bkg-secondary-color);
   color: #ffffff;
 
-  background-image: var(--grad),
-    url(../images/hero/fon-image-hero-mob1x-min.jpg);
+  background-image: var(--grad), url(../images/hero/fon-image-hero-mob1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 480px;
 }
 
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
-    background-image: var(--grad),
-      url(../images/hero/fon-image-hero-mob2x-min.jpg);
+    background-image: var(--grad), url(../images/hero/fon-image-hero-mob2x.jpg);
   }
 }
 
@@ -341,8 +340,8 @@ body {
 
 .team .container {
   width: 100%;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 /* .container-team {
@@ -712,7 +711,7 @@ body {
 
 .modal {
   padding: 24px;
-  width: 392px;
+  max-width: 95%;
   min-height: 586px;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -792,7 +791,7 @@ body {
 }
 
 .modal-input {
-  width: 360px;
+  width: 100%;
   height: 40px;
   padding-left: 38px;
   outline: transparent;
