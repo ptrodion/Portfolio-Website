@@ -23,6 +23,31 @@
         <a href="./index.html" class="header-logo">web<span>Studio</span></a>
       </nav>
 
+      <div class="header-menu">
+        <ul class="header-menu-list">
+          <li>
+            <a href="./index.html" class="header-menu-link header-current-page">Studio</a>
+          </li>
+          <li>
+            <a href="./portfolio.html" class="header-menu-link">Portfolio</a>
+          </li>
+          <li>
+            <a href="" class="header-menu-link">Contacts</a>
+          </li>
+        </ul>
+
+        <address>
+          <ul class="header-address-list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="header-contact-link">info@devstudio.com</a>
+            </li>
+            <li>
+              <a class="header-contact-link">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+
       <!-- MOBILE MENU START -->
       <button class="menu-open-button" data-menu-open type="button">
         <svg class="menu-open-icons" width="32" height="24">
@@ -95,35 +120,6 @@
     </div>
   </header>
   <!-- MOBILE MENU FINISH -->
-
-
-  <!-- <div class="header-wrap">
-    <ul class="header-menu">
-      <li>
-        <a href="./index.html" class="header-menu-link header-current-page">Studio</a>
-      </li>
-      <li>
-        <a href="./portfolio.html" class="header-menu-link">Portfolio</a>
-      </li>
-      <li>
-        <a href="" class="header-menu-link">Contacts</a>
-      </li>
-    </ul>
-
-
-    <address>
-      <ul class="header-menu-adress">
-        <li>
-          <a href="mailto:info@devstudio.com" class="header-contact-link">info@devstudio.com</a>
-        </li>
-        <li>
-          <a class="header-contact-link">+11 (000) 111-11-11</a>
-        </li>
-      </ul>
-    </address>
-  </div> -->
-
-
 
   <main>
     <section class="hero">
@@ -487,7 +483,7 @@
     <div class="modal">
       <button type="button" class="modal-close" data-modal-close>
         <svg class="modal-close-icons">
-          <use href="./images/icons.svg#icon-close-modal-window"></use>
+          <use href="./images/icons.svg#icon-close-window"></use>
         </svg>
       </button>
       <p class="modal-title modal-text ">Leave your contacts and we will call you back</p>
@@ -537,26 +533,26 @@
         <label for="privat-politic" class="check-text">I accept the terms and conditions of the <a href="#"
             class="modal-link">Privacy
             Policy</a> </label>
-      </div>
+      </div> -->
 
-      <div class="modal-field-check">
-    <input type="checkbox" id="privat-politic" name="privat-politic" value="true" class="privasy visually-hidden">
-    <label for="privat-politic" class="check-text">
-      <span>
-        <svg class="modal-icon-check">
-          <use href="./images/icons.svg#icon-modal-check"></use>
-        </svg>
-      </span>
-      I accept the terms and conditions of the
-      <a href="#" class="modal-link">PrivacyPolicy</a>
-    </label>
+        <div class="modal-field-check">
+          <input type="checkbox" id="privat-politic" name="privat-politic" value="true" class="privasy visually-hidden">
+          <label for="privat-politic" class="check-text">
+            <span>
+              <svg class="modal-icon-check">
+                <use href="./images/icons.svg#icon-modal-check"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the
+            <a href="#" class="modal-link">PrivacyPolicy</a>
+          </label>
+        </div>
+        <button type="submit" class="modal-submit-button button"><span>Send</span></button>
+      </form>
+    </div>
   </div>
-  <button type="submit" class="modal-submit-button button"><span>Send</span></button>
-  </form>
-  </div>
-  </div> -->
-        <script src="./js/modal.js"></script>
-        <script src="./js/mobile-menu.js"></script>
+  <script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
