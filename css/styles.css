@@ -4,8 +4,6 @@
   --text-primary-color: #434455;
   --text-secondary-color: #2e2f42;
   --text-accent-color: #404bbf;
-  --main-gaps: 72px;
-  --extra-gaps: 40px;
   --main-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   --grad: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
 }
@@ -132,8 +130,8 @@ body {
 .menu-open-button {
   border: none;
   background-color: transparent;
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 22px;
 }
 
 .menu-open-icons {
@@ -195,7 +193,7 @@ body {
 }
 
 .mob-menu-current-link {
-  color: #404bbf;
+  color: var(--text-accent-color);
 }
 
 .mob-menu-adress {
@@ -221,7 +219,7 @@ body {
   font-size: 25px;
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
-  color: #434455;
+  color: -;
 }
 
 .mob-menu-list-soc {
@@ -412,35 +410,6 @@ body {
   margin-bottom: 24px;
 }
 
-/*! FIRST METHOD FOR checkbox */
-
-/* .check-text {
-  display: flex;
-  gap: 8px;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-}
-.check-text::before {
-  content: ' ';
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-}
-
-.privasy:checked + .check-text::before {
-  background-color: #404bbf;
-  border: 1px solid #404bbf;
-  border-radius: 2px;
-  background-image: url(../images/modal-form/modal-check.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-} */
-
-/*! SECOND METHOD FOR checkbox */
-
 .modal-icon-check {
   width: 10px;
   height: 8px;
@@ -484,8 +453,6 @@ body {
   border-color: #404bbf;
 }
 
-/*! FINISH  */
-
 .modal-submit-button {
   min-width: 169px;
   height: 56px;
@@ -493,8 +460,6 @@ body {
 
 .modal-submit-button:is(:hover, :focus) {
   background-color: #404bbf;
-  /* border: none; */
-  /* border-color: transparent; */
 }
 
 .modal-submit-button span {
@@ -561,7 +526,7 @@ body {
 .about-list {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--main-gaps);
+  gap: 72px;
 }
 
 .about-list-title {
@@ -582,6 +547,15 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-primary-color);
+}
+
+.about-icons-container {
+  display: none;
+}
+
+/**-----------PERFOMACE-------------*/
+.performance {
+  display: none;
 }
 
 /**-----------TEAM-------------*/
@@ -631,7 +605,7 @@ body {
   line-height: calc(24 / 20);
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--text-secondary-color);
   margin-bottom: 8px;
 }
 
@@ -680,7 +654,7 @@ body {
   line-height: calc(40 / 36);
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--text-secondary-color);
 }
 
 .customers-list {
@@ -727,6 +701,12 @@ body {
   align-items: center;
   width: 268px;
   gap: 16px;
+}
+
+.foot-wrap-uppart {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
 }
 
 .footer-logo {
@@ -851,14 +831,19 @@ body {
 
 /**-----------PORTFOLIO-------------*/
 .projects {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
-.project-list-buttons {
+.project-list-first {
   display: flex;
-  gap: var(--main-gaps);
-  justify-content: center;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+
+.project-list-second {
+  display: flex;
+  gap: 24px;
 }
 
 .projects-button {
@@ -879,66 +864,9 @@ body {
     box-shadow var(--main-transition);
 }
 
-.projects-button:is(:hover, :focus, ) {
-  color: #ffffff;
-  background-color: #404bbf;
-  border-color: transparent;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.project--item {
-  width: calc((100% - 48px) / 3);
-}
-
-.project-overlay-container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-}
-
-.project-overlay-text {
-  position: absolute;
-  top: 0;
-  height: 100%;
-  padding: 40px 32px 164px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  background-color: #4d5ae5;
-  color: #f4f4fd;
-  transform: translateY(100%);
-  transition: transform var(--main-transition);
-}
-
 .project-list-jobs {
   margin-top: 72px;
   display: flex;
-  flex-wrap: wrap;
-  column-gap: var(--main-gaps);
+  flex-direction: column;
   row-gap: 48px;
-}
-
-.project-list-link {
-  display: block;
-  transition: box-shadow var(--main-transition);
-}
-
-.project-list-link:is(:hover, :focus) {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.project-list-link:is(:hover, :focus) .project-overlay-text {
-  transform: translateY(0);
-}
-
-.project-container-description {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
-
-.projects-subtitle {
-  margin-bottom: 8px;
 }
