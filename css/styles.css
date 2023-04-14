@@ -298,11 +298,6 @@ body {
     background-color var(--main-transition);
 }
 
-.modal-close:is(:hover, :focus) {
-  fill: #ffffff;
-  background-color: #404bbf;
-}
-
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -363,14 +358,6 @@ body {
   transition: fill var(--main-transition);
 }
 
-.modal-input:focus {
-  border-color: #4d5ae5;
-}
-
-.modal-input:focus + .modal-icon {
-  fill: #4d5ae5;
-}
-
 /* .modal-input:not(:focus):not(:placeholder-shown):required:valid {
   background-color: rgba(5, 20, 139, 0.918);
 }
@@ -395,10 +382,6 @@ body {
   font-size: 12px;
   letter-spacing: 0.02em;
   padding: 8px 16px;
-}
-
-.modal-textarea:focus {
-  border-color: #4d5ae5;
 }
 
 .modal-link {
@@ -456,10 +439,6 @@ body {
 .modal-submit-button {
   min-width: 169px;
   height: 56px;
-}
-
-.modal-submit-button:is(:hover, :focus) {
-  background-color: #404bbf;
 }
 
 .modal-submit-button span {

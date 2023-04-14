@@ -157,6 +157,27 @@
     background-color: #404bbf;
   }
 
+  .modal-close:is(:hover, :focus) {
+    fill: #ffffff;
+    background-color: #404bbf;
+  }
+
+  .modal-input:focus + .modal-icon {
+    fill: #4d5ae5;
+  }
+
+  .modal-input:focus {
+    border-color: #4d5ae5;
+  }
+
+  .modal-textarea:focus {
+    border-color: #4d5ae5;
+  }
+
+  .modal-submit-button:is(:hover, :focus) {
+    background-color: #404bbf;
+  }
+
   /* ABOUT */
   .about-list-title {
     text-align: left;
