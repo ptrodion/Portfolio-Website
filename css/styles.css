@@ -105,6 +105,10 @@ body {
   display: flex;
 }
 
+.header-menu-item {
+  position: relative;
+}
+
 .header-nav {
   display: flex;
   margin-right: auto;
@@ -125,6 +129,10 @@ body {
 
 .header-logo > span {
   color: var(--text-secondary-color);
+}
+
+.header-contact-tel {
+  color: #434455;
 }
 /*! MENU START */
 .menu-open-button {
@@ -219,7 +227,7 @@ body {
   font-size: 25px;
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
-  color: -;
+  color: var(--text-primary-color);
 }
 
 .mob-menu-list-soc {
@@ -809,43 +817,3 @@ body {
 }
 
 /**-----------PORTFOLIO-------------*/
-.projects {
-  padding-top: 48px;
-  padding-bottom: 48px;
-}
-
-.project-list-first {
-  display: flex;
-  gap: 24px;
-  margin-bottom: 16px;
-}
-
-.project-list-second {
-  display: flex;
-  gap: 24px;
-}
-
-.projects-button {
-  padding: 12px 24px;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
-
-  transition: color var(--main-transition),
-    background-color var(--main-transition), border-color var(--main-transition),
-    box-shadow var(--main-transition);
-}
-
-.project-list-jobs {
-  margin-top: 72px;
-  display: flex;
-  flex-direction: column;
-  row-gap: 48px;
-}
