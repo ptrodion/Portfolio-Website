@@ -817,3 +817,69 @@ body {
 }
 
 /**-----------PORTFOLIO-------------*/
+
+.projects {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.project-list-buttons {
+  min-width: 263px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: left;
+}
+
+.projects-button {
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+
+  transition: color var(--main-transition),
+    background-color var(--main-transition), border-color var(--main-transition),
+    box-shadow var(--main-transition);
+}
+
+.project-list-jobs {
+  margin-top: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.project-overlay-text {
+  display: none;
+}
+
+.project-container-description {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.projects-subtitle {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.projects-text {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
